@@ -1,0 +1,167 @@
+.test  {
+
+    background-color: rgba(246, 246, 246, 0.8);
+    padding: 8rem 0rem;
+
+    @media only screen and (max-width : $bp-largestxx)  {
+        padding: 4rem 4rem; 
+                
+    }
+
+    &__main {
+
+    }
+
+    &__row {
+
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8rem;
+
+
+        @media only screen and (max-width : $bp-medium)  {
+           
+            flex-direction: column; 
+        }
+        
+
+    }
+
+    &__h-div {
+
+    }
+
+    &__h1 {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 69px;
+        
+        color: #242527;
+        
+
+    }
+
+    &__p-div {
+        width:  43%;
+
+        @media only screen and (max-width : $bp-medium)  {
+           width : 100%
+        }
+
+    }
+
+    &__p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        
+        color: #000000;
+
+    }
+
+    &__main-row1 {
+
+        width: 100%;
+        // background-color: red;
+        display: flex;
+        justify-content: space-between;
+        // justify-content: space-between;
+        // margin: auto;
+        // flex-wrap: wrap;
+
+        @media only screen and (max-width : $bp-medium)  {
+           
+            flex-wrap: wrap;
+        }
+
+    }
+
+    &__div1 {
+        margin-right: 5rem;
+
+        @media only screen and (max-width : $bp-largestx)  {
+           
+            margin-right: 3rem;      
+        }
+
+    }
+
+    &__div2 {
+        margin-right: 5rem;
+
+        @media only screen and (max-width : $bp-largestx)  {
+           
+            margin-right: 3rem;      
+        }
+
+    }
+
+
+    &__img-div {
+        width: 100%;
+
+    }
+
+    &__img1 {
+        width: auto;
+
+
+        @media only screen and (max-width : $bp-largest)  {
+           
+            width: 80%;  
+        }
+
+        @media only screen and (max-width : $bp-large)  {
+           
+            width: 70%;  
+        }
+
+        @media only screen and (max-width : $bp-medium)  {
+           
+            width: 52%;  
+        }
+
+        @media only screen and (max-width : $bp-small)  {
+           
+            width: 70%;  
+        }
+
+        // border: 5px solid #FFFFFF;
+        
+    }
+
+    &__heading {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 42px;
+        color: #242527;
+        margin: 3.7rem 0rem;
+        
+
+    }
+
+    &__para {
+        width: 90%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        
+        color: #000000;
+
+        @media only screen and (max-width : $bp-small)  {
+           
+            margin-bottom: 8rem;
+        }
+
+        
+    }
+}
